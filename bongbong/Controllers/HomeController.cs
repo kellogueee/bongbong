@@ -16,6 +16,7 @@ namespace bongbong.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            Debug.WriteLine("temp");
         }
 
         public IActionResult Index()
